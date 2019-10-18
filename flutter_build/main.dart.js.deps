@@ -6,6 +6,11 @@ file:///Users/neolabx/Desktop/Projects/Flutter/corlink/lib/main.dart
 file:///Users/neolabx/Desktop/Projects/Flutter/corlink/lib/service/validation/implement/normal_validator.dart
 file:///Users/neolabx/Desktop/Projects/Flutter/corlink/lib/service/validation/validable.dart
 file:///Users/neolabx/Desktop/Projects/Flutter/corlink/lib/view/components/app_text_field.dart
+file:///Users/neolabx/Desktop/Projects/Flutter/corlink/lib/view/screen/chance_for_user/chance_for_user.dart
+file:///Users/neolabx/Desktop/Projects/Flutter/corlink/lib/view/screen/config_user/config_user.dart
+file:///Users/neolabx/Desktop/Projects/Flutter/corlink/lib/view/screen/main_screen.dart
+file:///Users/neolabx/Desktop/Projects/Flutter/corlink/lib/view/screen/news_info/news_info.dart
+file:///Users/neolabx/Desktop/Projects/Flutter/corlink/lib/view/screen/research_information/research_information.dart
 file:///Users/neolabx/Desktop/Projects/development/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.14.11/lib/collection.dart
 file:///Users/neolabx/Desktop/Projects/development/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.14.11/lib/src/algorithms.dart
 file:///Users/neolabx/Desktop/Projects/development/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.14.11/lib/src/canonicalized_map.dart
