@@ -34168,7 +34168,7 @@ V.fX.prototype={
 aJ:function(){return new V.GT(H.b(["Qarabag FK","APOEL Nicosia","F91 Dudelange","FC Koebenhavn","CFR Cluj"],[P.i]),C.o)}}
 V.GT.prototype={
 N:function(a){var u=null,t=K.bb(a).Q,s=this.d,r=[N.aV]
-return M.dR(u,T.LN(H.b([T.mU(T.OR(H.b([M.dR(u,new D.eK("23:55",$.Nf(),u),u,u,u,u,u,u,100),T.mU(new T.fl(1/0,1/0,T.LN(H.b([T.mU(this.ux(s[C.dd.kZ(5)],C.h.h(C.dd.kZ(5)))),T.mU(this.ux(s[C.dd.kZ(5)],C.h.h(C.dd.kZ(5))))],r)),u))],r),C.eA,C.eB)),M.dR(u,u,C.iC,u,u,0.5,new V.ao(10,0,10,0),u,1/0)],r)),t,new S.af(300,500,0,1/0),u,100,new V.ao(10,0,10,0),u,u)},
+return M.dR(u,T.LN(H.b([T.mU(T.OR(H.b([M.dR(u,new D.eK("23:55",$.Nf(),u),u,u,u,u,u,u,100),T.mU(new T.fl(1/0,1/0,T.LN(H.b([T.mU(this.ux(s[C.dd.kZ(5)],C.h.h(C.dd.kZ(5)))),T.mU(this.ux(s[C.dd.kZ(5)],C.h.h(C.dd.kZ(5))))],r)),u))],r),C.eA,C.eB)),M.dR(u,u,C.iC,u,u,0.5,new V.ao(10,0,10,0),u,1/0)],r)),t,new S.af(300,800,0,1/0),u,100,new V.ao(10,0,10,0),u,u)},
 ux:function(a,b){var u=null,t=$.Nf()
 return T.OR(H.b([M.dR(u,new D.eK(b,t,u),u,u,u,u,u,u,60),T.mU(new T.fl(1/0,1/0,new D.eK(a,t,u),u))],[N.aV]),C.eA,C.eB)},
 $aZ:function(){return[V.fX]}}
