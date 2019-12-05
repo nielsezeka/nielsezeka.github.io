@@ -5,7 +5,7 @@
       {
         "appID": “jp.neolab.calling.dev",
         "paths": [
-          "*"
+          "/iOS-Universal-Links/*"
         ]
       }
     ]
