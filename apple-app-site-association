@@ -4,7 +4,7 @@
 		"details": [{
 			"appID": "29T66LHW6L.jp.neolab.calling.dev",
 			"paths": [
-				"/iOS-Universal-Links/*"
+				"/reset-password"
 			]
 		}]
 	}
