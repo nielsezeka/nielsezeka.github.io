@@ -2,9 +2,9 @@
 	"applinks": {
 		"apps": [],
 		"details": [{
-			"appID": "29T66LHW6L.jp.neolab.calling.dev",
+			"appID": "R3238U955B.jp.dev.denpanomi",
 			"paths": [
-				"/reset-password/*"
+				"/anhlinhtrocdua/*"
 			]
 		}]
 	}
