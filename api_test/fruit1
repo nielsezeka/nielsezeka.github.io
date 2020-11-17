@@ -1,0 +1,201 @@
+[{
+	"id": "1",
+	"fruit": "bannana",
+	"color": "yellow",
+	"flavor": "sweet",
+	"price": "2",
+	"source": "store",
+	"url": {
+		"url": "https://www.diabete.qc.ca/wp-content/uploads/2014/08/Les-fruits.png"
+	}
+}, {
+	"id": "2",
+	"fruit": "bannana",
+	"color": "yellow",
+	"flavor": "sweet",
+	"price": "2",
+	"source": "store",
+	"url": {
+		"url": "https://www.diabete.qc.ca/wp-content/uploads/2014/08/Les-fruits.png"
+	}
+}, {
+	"id": "3",
+	"fruit": "orange ",
+	"color": "orange",
+	"flavor": "sweet",
+	"price": "3",
+	"source": "store",
+	"url": {
+		"url": "https://www.diabete.qc.ca/wp-content/uploads/2014/08/Les-fruits.png"
+	}
+}, {
+	"id": "4",
+	"fruit": "orange ",
+	"color": "orange",
+	"flavor": "sweet",
+	"price": "3",
+	"source": "store",
+	"url": {
+		"url": "https://www.diabete.qc.ca/wp-content/uploads/2014/08/Les-fruits.png"
+	}
+}, {
+	"id": "5",
+	"fruit": "orange ",
+	"color": "orange",
+	"flavor": "sweet",
+	"price": "3",
+	"source": "store",
+	"url": {
+		"url": "https://www.diabete.qc.ca/wp-content/uploads/2014/08/Les-fruits.png"
+	}
+}, {
+	"id": "6",
+	"fruit": "apple",
+	"color": "green",
+	"flavor": "tart",
+	"price": "1",
+	"source": "store",
+	"url": {
+		"url": "https://www.diabete.qc.ca/wp-content/uploads/2014/08/Les-fruits.png"
+	}
+}, {
+	"id": "7",
+	"fruit": "apple",
+	"color": "green",
+	"flavor": "spicy",
+	"price": "1",
+	"source": "store",
+	"url": {
+		"url": "https://www.diabete.qc.ca/wp-content/uploads/2014/08/Les-fruits.png"
+	}
+}, {
+	"id": "8",
+	"fruit": "apple",
+	"color": "green",
+	"flavor": "bitter",
+	"price": "1",
+	"source": "store",
+	"url": {
+		"url": "https://www.diabete.qc.ca/wp-content/uploads/2014/08/Les-fruits.png"
+	}
+}, {
+	"id": "9",
+	"fruit": "apple",
+	"color": "green",
+	"flavor": "sour",
+	"price": "1",
+	"source": "store",
+	"url": {
+		"url": "https://www.diabete.qc.ca/wp-content/uploads/2014/08/Les-fruits.png"
+	}
+}, {
+	"id": "10",
+	"fruit": "apple",
+	"color": "red",
+	"flavor": "sour",
+	"price": "1",
+	"source": "store",
+	"url": {
+		"url": "https://www.diabete.qc.ca/wp-content/uploads/2014/08/Les-fruits.png"
+	}
+}, {
+	"id": "11",
+	"fruit": "apple",
+	"color": "red",
+	"flavor": "sweet",
+	"price": "1",
+	"source": "store",
+	"url": {
+		"url": "https://www.diabete.qc.ca/wp-content/uploads/2014/08/Les-fruits.png"
+	}
+}, {
+	"id": "12",
+	"fruit": "apple",
+	"color": "red",
+	"flavor": "tart",
+	"price": "1",
+	"source": "store",
+	"url": {
+		"url": "https://www.diabete.qc.ca/wp-content/uploads/2014/08/Les-fruits.png"
+	}
+}, {
+	"id": "13",
+	"fruit": "apple",
+	"color": "red",
+	"flavor": "spicy",
+	"price": "1",
+	"source": "store",
+	"url": {
+		"url": "https://www.diabete.qc.ca/wp-content/uploads/2014/08/Les-fruits.png"
+	}
+}, {
+	"id": "14",
+	"fruit": "apple",
+	"color": "red",
+	"flavor": "bitter",
+	"price": "1",
+	"source": "store",
+	"url": {
+		"url": "https://www.diabete.qc.ca/wp-content/uploads/2014/08/Les-fruits.png"
+	}
+}, {
+	"id": "15",
+	"fruit": "apple",
+	"color": "green",
+	"flavor": "sweet",
+	"price": "1",
+	"source": "store",
+	"url": {
+		"url": "https://www.diabete.qc.ca/wp-content/uploads/2014/08/Les-fruits.png"
+	}
+}, {
+	"id": "16",
+	"fruit": "apple",
+	"color": "yellow",
+	"flavor": "sour",
+	"price": "1",
+	"source": "farmer's market",
+	"url": {
+		"url": "https://www.diabete.qc.ca/wp-content/uploads/2014/08/Les-fruits.png"
+	}
+}, {
+	"id": "17",
+	"fruit": "apple",
+	"color": "yellow",
+	"flavor": "sweet",
+	"price": "1",
+	"source": "farmer's market",
+	"url": {
+		"url": "https://www.diabete.qc.ca/wp-content/uploads/2014/08/Les-fruits.png"
+	}
+}, {
+	"id": "18",
+	"fruit": "apple",
+	"color": "yellow",
+	"flavor": "tart",
+	"price": "1",
+	"source": "farmer's market",
+	"url": {
+		"url": "https://www.diabete.qc.ca/wp-content/uploads/2014/08/Les-fruits.png"
+	}
+}, {
+	"id": "19",
+	"fruit": "apple",
+	"color": "yellow",
+	"flavor": "spicy",
+	"price": "1",
+	"source": "farmer's market",
+	"url": {
+		"url": "https://www.diabete.qc.ca/wp-content/uploads/2014/08/Les-fruits.png"
+	}
+}, {
+	"id": "20",
+	"fruit": "apple",
+	"color": "yellow",
+	"flavor": "bitter",
+	"price": "1",
+	"source": "farmer's market",
+	"url": {
+		"url": "https://www.diabete.qc.ca/wp-content/uploads/2014/08/Les-fruits.png"
+	}
+}]
