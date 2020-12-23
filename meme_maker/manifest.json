@@ -1,6 +1,6 @@
 {
-    "name": "training_flutter",
-    "short_name": "training_flutter",
+    "name": "meme_creator",
+    "short_name": "meme_creator",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
