@@ -1,0 +1,11 @@
+<script src="http://esotericsoftware.com/files/spine-player/3.8/spine-player.js"></script>
+<link rel="stylesheet" href="http://esotericsoftware.com/files/spine-player/3.8/spine-player.css">
+
+<div id="player-container" style="width: 100%; height: 100vh;"></div>
+
+<script>
+new spine.SpinePlayer("player-container", {
+	jsonUrl: "/export/mix-and-match-pro.json",//"http://esotericsoftware.com/files/examples/spineboy/export/spineboy-pro.json",
+	atlasUrl: "/export/mix-and-match-pma.atlas",//"http://esotericsoftware.com/files/examples/spineboy/export/spineboy.atlas"
+});
+</script>
