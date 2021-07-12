@@ -1,14 +1,13 @@
 <html>
   <head>
-    <!-- Load TensorFlow.js -->
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tensorflow/2.0.1/tf.min.js"></script>
     <!-- Load BodyPix -->
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/body-pix@2.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/body-pix@2.2.0/dist/body-pix.min.js"></script>
  </head>
 
   <body>
     <canvas id="canvas" ></canvas>
-    <img hidden id='image' src='https://thumbs.dreamstime.com/b/model-test-portrait-young-beautiful-redhead-freckles-fashion-model-posing-white-background-natural-light-model-test-103267130.jpg' crossorigin='anonymous'/>
+    <img id='image' src='https://thumbs.dreamstime.com/b/model-test-portrait-young-beautiful-redhead-freckles-fashion-model-posing-white-background-natural-light-model-test-103267130.jpg' crossorigin='anonymous'/>
   </body>
   <!-- Place your code in the script tag below. You can also use an external .js file -->
   <script>
@@ -19,7 +18,7 @@
       // The mask image is an binary mask image with a 1 where there is a person and
       // a 0 where there is not.
       const coloredPartImage = bodyPix.toMask(segmentation);
-      const opacity = 0.0;
+      const opacity = 1.0;
       const flipHorizontal = false;
       const maskBlurAmount = 0;
       const canvas = document.getElementById('canvas');
