@@ -1,2 +1,0 @@
-fix fast
-create entry point
