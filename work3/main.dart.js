@@ -71093,7 +71093,7 @@ p.a9i()
 return p})
 s($,"aEG","ahM",function(){return new D.S6()})
 s($,"aGj","ahV",function(){return $.apB()})
-s($,"aGk","aqa",function(){var q,p,o=null,n="https://appwrite.io/v1",m="https://",l="http://fitness.kazenki.com/v1",k="6145ea9d1105a",j=new T.To(n)
+s($,"aGk","aqa",function(){var q,p,o=null,n="https://appwrite.io/v1",m="https://",l="https://fitness.kazenki.com/v1",k="6145ea9d1105a",j=new T.To(n)
 j.d=O.ajA()
 j.e=C.c.lD(C.c.lD(n,m,"wss://"),"http://","ws://")
 q=t.N
