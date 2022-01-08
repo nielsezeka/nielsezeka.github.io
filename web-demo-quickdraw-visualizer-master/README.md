@@ -1,1 +1,2 @@
+- try disable the chart
 - update test code
