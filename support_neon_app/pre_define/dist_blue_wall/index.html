@@ -1,25 +1,44 @@
 <!DOCTYPE html>
 <html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - NEON TEXT</title>
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Bad+Script'><link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<div id="container">
-  
-    <!-- to increase performance, we change the opacity of shadow instead of changing the text-shadow directly -->
-  
-    <div id="neon">TEXT HERE!!!</p>
-  
-    <p id="shadow">
-        <span id="glow">TEXT</span><span id="blink">HERE!!!</span>
-    </p>
-  
-</div>
-<!-- partial -->
-  
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <title>CodePen - NEON TEXT</title>
+      <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Bad+Script'>
+      <link rel="stylesheet" href="./style.css">
+      <script>
+         function applyData(text, color, fontSize) {
+           const concreteFontSize = (fontSize == -1) ? '7em' : `${fontSize}em`;
+           let myArray = text.split(" ");
+           
+           if (myArray.length < 2) {
+            myArray =  [text.substring(0, text.length /2),text.substring(text.length /2,text.length)];
+            document.getElementById("neon").firstChild.data = text;
+            document.getElementById("glow").textContent = myArray[0];
+            document.getElementById("blink").textContent = myArray[1];
+            document.getElementById("shadow").style.fontSize = concreteFontSize;
+            // document.getElementById("blink").style.fontSize = concreteFontSize;
+           } else {
+            let [first, ...rest] = text.split(" ");
+            rest = rest.join("");
+            document.getElementById("neon").firstChild.data = text;
+            document.getElementById("glow").textContent = first;
+            document.getElementById("blink").textContent = rest;
+            document.getElementById("shadow").style.fontSize = concreteFontSize;
+            // document.getElementById("blink").style.fontSize = concreteFontSize;
+           }
+           
+         }
+      </script>
+   </head>
+   <body>
+      <!-- partial:index.partial.html -->
+      <div id="container">
+      <div id="neon">
+         TEXT HERE!!!
+         <p id="shadow">
+            <span id="glow">TEXT</span><span id="blink">HERE!!!</span>
+         </p>
+      </div>
+      <!-- partial -->
+   </body>
 </html>
