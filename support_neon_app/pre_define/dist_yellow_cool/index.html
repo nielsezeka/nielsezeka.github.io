@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - CSS Neon Sign</title>
+  <link rel="stylesheet" href="./style.css">
+  <script>
+    function applyData(text, color, fontSize) {
+      const concreteFontSize = (fontSize == -1) ? '7em' : `${fontSize}em`;
+      document.getElementById("neon").innerHTML = text;
+      document.getElementById("neon").style.fontSize = concreteFontSize;
+    }
+    </script>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1 id="neon">Dare to dream</h1>
+<!-- partial -->
+  <script  src="./script.js"></script>
+</body>
+</html>
