@@ -1,0 +1,129 @@
+html {box-sizing: border-box;}
+*, *:before, *:after {margin:0;padding:0;position:relative;box-sizing:inherit;}
+img, canvas {max-width:100%;height:auto;display:block;margin:0 auto;transition:opacity .3s;}
+body {background:#ECF0F1;}
+body, input, textarea, select, option, button {font:16px/1.618'Lato', sans-serif;}
+body {-webkit-user-select:none;}
+body::-webkit-scrollbar {width:13px; height:13px;}
+body::-webkit-scrollbar-corner {background-image:url('images/corner.png');background-repeat:no-repeat}
+body::-webkit-scrollbar-corner:window-inactive {background-image:url('images/corner-inactive.png');}
+body::-webkit-resizer {background-image:url('images/resizer.png'); background-repeat:no-repeat; background-position: right bottom}
+body::-webkit-resizer:window-inactive {background-image:url('images/resizer-inactive.png');}
+body::-webkit-scrollbar-track-piece:disabled {display:none !important;}
+body::-webkit-scrollbar-button:disabled {display:none !important;}
+::-webkit-scrollbar-track:disabled {margin:6px;}
+/* Horizontal Scrollbar Styles */
+body::-webkit-scrollbar:horizontal {-webkit-border-image:url(../../css/images/horizontal-button.png) 0 2 0 2; border-color:transparent; border-width:0 2px; background-image:url(../../css/images/horizontal-button-background.png); background-repeat:repeat-x;}
+body::-webkit-scrollbar:horizontal:corner-present {border-right-width:0;}
+body::-webkit-scrollbar-track:horizontal:disabled:corner-present {margin-right:5px;}
+body::-webkit-scrollbar:horizontal:window-inactive {-webkit-border-image:url(../../css/images/horizontal-button-inactive.png) 0 2 0 2; background-image:url(../../css/images/horizontal-button-background-inactive.png);}
+body::-webkit-scrollbar-thumb:horizontal {-webkit-border-image:url(../../css/images/horizontal-thumb.png) 0 13 0 13; border-color:transparent; border-width:0 13px; min-width:20px;}
+body::-webkit-scrollbar-thumb:horizontal:hover {-webkit-border-image:url(../../css/images/horizontal-thumb-hover.png) 0 13 0 13;}
+body::-webkit-scrollbar-thumb:horizontal:active {-webkit-border-image:url(../../css/images/horizontal-thumb-active.png) 0 13 0 13;}
+body::-webkit-scrollbar-thumb:horizontal:window-inactive {-webkit-border-image:url(../../css/images/horizontal-thumb-inactive.png) 0 13 0 13;}
+body::-webkit-scrollbar-track-piece:horizontal:start:no-button,.double-end::-webkit-scrollbar-track-piece:horizontal:start,.none::-webkit-scrollbar-track-piece:horizontal:start {margin-left: 6px;}
+body::-webkit-scrollbar-track-piece:horizontal:end:no-button,.double-start::-webkit-scrollbar-track-piece:horizontal:end,.none::-webkit-scrollbar-track-piece:horizontal:end {margin-right:6px;}
+body::-webkit-scrollbar-track-piece:horizontal:end:no-button:corner-present,.double-start::-webkit-scrollbar-track-piece:horizontal:end:corner-present,.none::-webkit-scrollbar-track-piece:horizontal:end:corner-present {margin-right:5px;}
+:not(.none):not(.double-end)::-webkit-scrollbar-track-piece:horizontal:start:single-button,:not(.none):not(.double-end)::-webkit-scrollbar-track-piece:horizontal:start:double-button,.single::-webkit-scrollbar-track-piece:horizontal:start,.double-start::-webkit-scrollbar-track-piece:horizontal:start,.double-both::-webkit-scrollbar-track-piece:horizontal:start {margin-left:-6px;}
+:not(.none):not(.double-start)::-webkit-scrollbar-track-piece:horizontal:end:single-button,:not(.none):not(.double-start)::-webkit-scrollbar-track-piece:horizontal:end:double-button,.single::-webkit-scrollbar-track-piece:horizontal:end,.double-end::-webkit-scrollbar-track-piece:horizontal:end,.double-both::-webkit-scrollbar-track-piece:horizontal:end {margin-right:-6px;}
+body::-webkit-scrollbar-track:horizontal:disabled {-webkit-border-image:url(../../css/images/horizontal-track-disabled.png) 0 13 0 13; border-color:transparent; border-width:0 13px;}
+body::-webkit-scrollbar-track-piece:horizontal:decrement {-webkit-border-image:url(../../css/images/horizontal-track.png) 0 13 0 13; border-color:transparent; border-width:0 0 0 13px;}
+body::-webkit-scrollbar-track-piece:horizontal:decrement:hover {-webkit-border-image: url(../../css/images/horizontal-track-hover.png) 0 13 0 13;}
+body::-webkit-scrollbar-track-piece:horizontal:decrement:active {-webkit-border-image:url(../../css/images/horizontal-track-active.png) 0 13 0 13;}
+body::-webkit-scrollbar-track-piece:horizontal:increment {-webkit-border-image:url(../../css/images/horizontal-track.png) 0 13 0 13; border-color:transparent; border-width:0 13px 0 0;}
+body::-webkit-scrollbar-track-piece:horizontal:increment:hover {-webkit-border-image:url(../../css/images/horizontal-track-hover.png) 0 13 0 13;}
+body::-webkit-scrollbar-track-piece:horizontal:increment:active {-webkit-border-image:url(../../css/images/horizontal-track-active.png) 0 13 0 13;}
+body::-webkit-scrollbar-button:horizontal {width:20px; -webkit-border-image:url(../../css/images/horizontal-button.png) 0 2 0 2; border-color:transparent; border-width:0 2px;}
+body::-webkit-scrollbar-button:horizontal:decrement {background-image: url(../../css/images/horizontal-decrement-arrow.png), url(../../css/images/horizontal-button-background.png); background-repeat: no-repeat, repeat-x; background-position:2px 3px, 0 0;}
+body::-webkit-scrollbar-button:horizontal:decrement:hover {-webkit-border-image: url(../../css/images/horizontal-button-hover.png) 0 2 0 2; background-image: url(../../css/images/horizontal-decrement-arrow.png), url(../../css/images/horizontal-button-background-hover.png);}
+body::-webkit-scrollbar-button:horizontal:decrement:active {-webkit-border-image: url(../../css/images/horizontal-button-active.png) 0 2 0 2; background-image: url(../../css/images/horizontal-decrement-arrow.png), url(../../css/images/horizontal-button-background-active.png);}
+body::-webkit-scrollbar-button:horizontal:decrement:window-inactive {-webkit-border-image: url(../../css/images/horizontal-button-inactive.png) 0 2 0 2; background-image: url(../../css/images/horizontal-decrement-arrow.png), url(../../css/images/horizontal-button-background-inactive.png);}
+body::-webkit-scrollbar-button:horizontal:increment {background-image: url(../../css/images/horizontal-increment-arrow.png), url(../../css/images/horizontal-button-background.png); background-repeat: no-repeat, repeat-x; background-position:7px 3px, 0 0;}
+body::-webkit-scrollbar-button:horizontal:increment:hover {-webkit-border-image: url(../../css/images/horizontal-button-hover.png) 0 2 0 2; background-image: url(../../css/images/horizontal-increment-arrow.png), url(../../css/images/horizontal-button-background-hover.png);}
+body::-webkit-scrollbar-button:horizontal:increment:active {-webkit-border-image:url(../../css/images/horizontal-button-active.png) 0 2 0 2; background-image:url(../../css/images/horizontal-increment-arrow.png), url(../../css/images/horizontal-button-background-active.png);}
+body::-webkit-scrollbar-button:horizontal:increment:window-inactive {-webkit-border-image:url(../../css/images/horizontal-button-inactive.png) 0 2 0 2; background-image:url(../../css/images/horizontal-increment-arrow.png), url(../../css/images/horizontal-button-background-inactive.png);}
+:not(.single)::-webkit-scrollbar-button:double-button:horizontal:start:decrement,.double-start::-webkit-scrollbar-button:horizontal:start:decrement,.double-both::-webkit-scrollbar-button:horizontal:start:decrement {width:14px; border-right-width:0; background-position:2px 3px, 0 0;}
+:not(.single)::-webkit-scrollbar-button:double-button:horizontal:start:increment,.double-start::-webkit-scrollbar-button:horizontal:start:increment,.double-both::-webkit-scrollbar-button:horizontal:start:increment {background-position:3px 3px, 0 0;}
+:not(.single)::-webkit-scrollbar-button:double-button:horizontal:end:decrement,.double-end::-webkit-scrollbar-button:horizontal:end:decrement,.double-both::-webkit-scrollbar-button:horizontal:end:decrement {background-position:7px 3px, 0 0;}
+:not(.single)::-webkit-scrollbar-button:double-button:horizontal:end:increment,.double-end::-webkit-scrollbar-button:horizontal:end:increment,.double-both::-webkit-scrollbar-button:horizontal:end:increment {width:14px; border-left-width:0; background-position:3px 3px, 0 0;}
+body::-webkit-scrollbar-button:horizontal:end:increment:corner-present {border-right-width:0; width:19px;}
+:not(.single)::-webkit-scrollbar-button:double-button:horizontal:end:increment:corner-present,.double-end::-webkit-scrollbar-button:horizontal:end:increment:corner-present,.double-both::-webkit-scrollbar-button:horizontal:end:increment:corner-present {width:13px;}
+/* Vertical Scrollbar Styles */
+body::-webkit-scrollbar:vertical {-webkit-border-image:url(../../css/images/vertical-button.png) 2 0 2 0; border-color:transparent; border-width:2px 0; background-image:url(../../css/images/vertical-button-background.png); background-repeat:repeat-y;}
+body::-webkit-scrollbar:vertical:corner-present {border-bottom-width:0;}
+body::-webkit-scrollbar-track:vertical:disabled:corner-present {margin-bottom:5px;}
+body::-webkit-scrollbar:vertical:window-inactive {-webkit-border-image:url(../../css/images/vertical-button-inactive.png) 2 0 2 0; background-image:url(../../css/images/vertical-button-background-inactive.png);}
+body::-webkit-scrollbar-thumb:vertical {-webkit-border-image:url(../../css/images/vertical-thumb.png) 13 0 13 0; border-color:transparent; border-width:13px 0; min-height:20px;}
+body::-webkit-scrollbar-thumb:vertical:hover {-webkit-border-image:url(../../css/images/vertical-thumb-hover.png) 13 0 13 0;}
+body::-webkit-scrollbar-thumb:vertical:active {-webkit-border-image:url(../../css/images/vertical-thumb-active.png) 13 0 13 0;}
+body::-webkit-scrollbar-thumb:vertical:window-inactive {-webkit-border-image:url(../../css/images/vertical-thumb-inactive.png) 13 0 13 0;}
+body::-webkit-scrollbar-track-piece:vertical:start:no-button,.double-end::-webkit-scrollbar-track-piece:vertical:start,.none::-webkit-scrollbar-track-piece:vertical:start {margin-top:6px;}
+body::-webkit-scrollbar-track-piece:vertical:end:no-button,.double-start::-webkit-scrollbar-track-piece:vertical:end,.none::-webkit-scrollbar-track-piece:vertical:end {margin-bottom:6px;}
+body::-webkit-scrollbar-track-piece:vertical:end:no-button:corner-present,.double-start::-webkit-scrollbar-track-piece:vertical:end:corner-present,.none::-webkit-scrollbar-track-piece:vertical:end:corner-present {margin-bottom:5px;}
+:not(.none):not(.double-end)::-webkit-scrollbar-track-piece:vertical:start:single-button,:not(.none):not(.double-end)::-webkit-scrollbar-track-piece:vertical:start:double-button,.single::-webkit-scrollbar-track-piece:vertical:start,.double-start::-webkit-scrollbar-track-piece:vertical:start,.double-both::-webkit-scrollbar-track-piece:vertical:start {margin-top:-6px;}
+:not(.none):not(.double-start)::-webkit-scrollbar-track-piece:vertical:end:single-button,:not(.none):not(.double-start)::-webkit-scrollbar-track-piece:vertical:end:double-button,.single::-webkit-scrollbar-track-piece:vertical:end,.double-end::-webkit-scrollbar-track-piece:vertical:end,.double-both::-webkit-scrollbar-track-piece:vertical:end {margin-bottom:-6px;}
+body::-webkit-scrollbar-track:vertical:disabled {-webkit-border-image: url(../../css/images/vertical-track-disabled.png) 13 0 13 0; border-color:transparent; border-width:13px 0;}
+body::-webkit-scrollbar-track-piece:vertical:decrement {-webkit-border-image:url(../../css/images/vertical-track.png) 13 0 13 0; border-color:transparent; border-width:13px 0 0 0;}
+body::-webkit-scrollbar-track-piece:vertical:decrement:hover {-webkit-border-image:url(../../css/images/vertical-track-hover.png) 13 0 13 0;}
+body::-webkit-scrollbar-track-piece:vertical:decrement:active {-webkit-border-image:url(../../css/images/vertical-track-active.png) 13 0 13 0;}
+body::-webkit-scrollbar-track-piece:vertical:increment {-webkit-border-image:url(../../css/images/vertical-track.png) 13 0 13 0; border-color:transparent; border-width:0 0 13px 0;}
+body::-webkit-scrollbar-track-piece:vertical:increment:hover {-webkit-border-image: url(../../css/images/vertical-track-hover.png) 13 0 13 0;}
+body::-webkit-scrollbar-track-piece:vertical:increment:active {-webkit-border-image:url(../../css/images/vertical-track-active.png) 13 0 13 0;}
+body::-webkit-scrollbar-button:vertical {height:20px; -webkit-border-image:url(../../css/images/vertical-button.png) 2 0 2 0; border-color:transparent; border-width:2px 0;}
+body::-webkit-scrollbar-button:vertical:decrement {background-image: url(../../css/images/vertical-decrement-arrow.png), url(../../css/images/vertical-button-background.png); background-repeat: no-repeat, repeat-y; background-position: 3px 3px, 0 0;}
+body::-webkit-scrollbar-button:vertical:decrement:hover {-webkit-border-image: url(../../css/images/vertical-button-hover.png) 2 0 2 0; background-image: url(../../css/images/vertical-decrement-arrow.png), url(../../css/images/vertical-button-background-hover.png);}
+body::-webkit-scrollbar-button:vertical:decrement:active {-webkit-border-image: url(../../css/images/vertical-button-active.png) 2 0 2 0; background-image: url(../../css/images/vertical-decrement-arrow.png), url(../../css/images/vertical-button-background-active.png);}
+body::-webkit-scrollbar-button:vertical:decrement:window-inactive {-webkit-border-image: url(../../css/images/vertical-button-inactive.png) 2 0 2 0; background-image: url(../../css/images/vertical-decrement-arrow.png), url(../../css/images/vertical-button-background-inactive.png);}
+body::-webkit-scrollbar-button:vertical:increment {background-image:url(../../css/images/vertical-increment-arrow.png), url(../../css/images/vertical-button-background.png); background-repeat:no-repeat, repeat-y; background-position:3px 8px, 0 0;}
+body::-webkit-scrollbar-button:vertical:increment:hover {-webkit-border-image: url(../../css/images/vertical-button-hover.png) 2 0 2 0; background-image: url(../../css/images/vertical-increment-arrow.png), url(../../css/images/vertical-button-background-hover.png);}
+body::-webkit-scrollbar-button:vertical:increment:active {-webkit-border-image: url(../../css/images/vertical-button-active.png) 2 0 2 0; background-image: url(../../css/images/vertical-increment-arrow.png), url(../../css/images/vertical-button-background-active.png);}
+body::-webkit-scrollbar-button:vertical:increment:window-inactive {-webkit-border-image: url(../../css/images/vertical-button-inactive.png) 2 0 2 0; background-image: url(../../css/images/vertical-increment-arrow.png), url(../../css/images/vertical-button-background-inactive.png);}
+:not(.single)::-webkit-scrollbar-button:double-button:vertical:start:decrement,
+.double-start::-webkit-scrollbar-button:vertical:start:decrement,
+.double-both::-webkit-scrollbar-button:vertical:start:decrement {height:14px;border-bottom-width:0;background-position:3px 3px, 0 0;}
+:not(.single)::-webkit-scrollbar-button:double-button:vertical:start:increment,
+.double-start::-webkit-scrollbar-button:vertical:start:increment,
+.double-both::-webkit-scrollbar-button:vertical:start:increment {background-position:3px 4px, 0 0;}
+:not(.single)::-webkit-scrollbar-button:double-button:vertical:end:decrement,
+.double-end::-webkit-scrollbar-button:vertical:end:decrement,
+.double-both::-webkit-scrollbar-button:vertical:end:decrement {background-position:3px 8px, 0 0;}
+:not(.single)::-webkit-scrollbar-button:double-button:vertical:end:increment,.double-end::-webkit-scrollbar-button:vertical:end:increment,.double-both::-webkit-scrollbar-button:vertical:end:increment {height:14px;border-top-width:0;background-position:3px 4px, 0 0;}
+body::-webkit-scrollbar-button:vertical:end:increment:corner-present {border-bottom-width:0;height:19px;}
+:not(.single)::-webkit-scrollbar-button:double-button:vertical:end:increment:corner-present,.double-end::-webkit-scrollbar-button:vertical:end:increment:corner-present,.double-both::-webkit-scrollbar-button:vertical:end:increment:corner-present {height:13px;}
+/* Forced Scrollbar Mode Styles */
+.single::-webkit-scrollbar-button:start:decrement,.single::-webkit-scrollbar-button:end:increment {display:block;}
+.single::-webkit-scrollbar-button:start:increment,.single::-webkit-scrollbar-button:end:decrement {display:none;}
+.double-end::-webkit-scrollbar-button:start {display:none;}
+.double-end::-webkit-scrollbar-button:end {display:block;}
+.double-start::-webkit-scrollbar-button:start {display:block;}
+.double-start::-webkit-scrollbar-button:end {display:none;}
+.double-both::-webkit-scrollbar-button {display:block;}
+.none::-webkit-scrollbar-button {display:none;}
+h1, h2, h3 {line-height:1; text-transform:uppercase;}
+h1 {font-size:1.5em; text-align:center;}
+/* LAYOUT */
+#sidebar {width:15em;height:100%;position:fixed;top:0;left:0;background:#2c3e50;text-shadow:rgba(0, 0, 0, .1) 0 -1px 0;}
+.title {background:#2980b9;color:#ecf0f1;}
+.header, .header h1 {height:4rem;line-height:4rem; 1}
+label {display:block;text-transform:uppercase;color:#ecf0f1;}
+input, select {margin-bottom:1em;width:100%;padding:.5em;}
+select {outline:none;transition:all 0.25s ease-in-out;-webkit-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;border:1px solid rgba(0,0,0, 0.2);color:#444;background:#bbb;-webkit-box-shadow:inset 0px 1px 0px rgba(0,0,0,0.3), 0px 1px 0px rgba(255,255,255,0.25);-moz-box-shadow:inset 0px 1px 0px rgba(0,0,0,0.3), 0px 1px 0px rgba(255,255,255,0.25);box-shadow:inset 0px 1px 0px rgba(0,0,0,0.3), 0px 1px 0px rgba(255,255,255,0.25);padding:1px;} 
+select:hover {color:#007730;cursor:help;}
+select:focus {box-shadow:0 0 15px #007730;-webkit-box-shadow:0 0 15px #007730;-moz-box-shadow:0 0 15px #007730;border:1px solid #007730;color:#444444;background-color:#D4E8D6;text-shadow:0px 1px 1px rgba(0,0,0,0.2);}
+#main {margin-left:15em;}
+.top {padding:0 1em;}
+.content {background:#ecf0f1;}
+.footer {color:#95a5a6;}
+.footer a {color:#7f8c8d;}
+.button {overflow:hidden; line-height:1;background:#2980b9;color:#ecf0f1;font-weight:700;padding:.5em 1em;border:0;text-transform:uppercase;text-decoration:none;}
+.button:hover {cursor:pointer;background:#3498db;color:#ffff00;}
+.button:active {background:#2c3e50;}
+.button-default {background:#95a5a6;color:#ecf0f1;}
+.button-default:hover {background:#7f8c8d;color:#ffff00;}
+.button-default:active {background:#000;}
+.txt-big {font-size:1.25em;}
+.m-1x {margin:1em;}
+.p-1x {padding:1em;}
+.sh {box-shadow:rgba(0, 0, 0, .1) 0 1px 0, rgba(0, 0, 0, .1) 0 1px 3px, rgba(0, 0, 0, .1) 0 2px 6px;}
+.inline-block {display:inline-block;}
+.txt-center {text-align:center;}
