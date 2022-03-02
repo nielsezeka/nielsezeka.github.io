@@ -42,12 +42,16 @@ app.controller('MainCtrl', function($scope, $element, $attrs) {
     $scope.update = function update(process) {
         triangulator(elem, $scope.process);
         var dataURL = elem.toDataURL();
-        console.log(dataURL);
+        window.flutter_inappwebview
+                    .callHandler('handlerFooWithArgs', dataURL);
     };
     $scope.onBase64 = function(base64Image) {
         var file = dataURLtoFile(base64Image,'image.png');
         $scope.process.rawImage = file;
         triangulator(elem, $scope.process);
+         var dataURL = elem.toDataURL();
+        window.flutter_inappwebview
+                    .callHandler('handlerFooWithArgs', dataURL);
     }
     $scope.onFileSelect = function($files) {
         // should remove this function
