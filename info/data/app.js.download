@@ -40,18 +40,24 @@ app.controller('MainCtrl', function($scope, $element, $attrs) {
     };
 
     $scope.update = function update(process) {
+        console.log($scope.process.yapeLaplacian);
         triangulator(elem, $scope.process);
+       
+        setTimeout(function(){  
         var dataURL = elem.toDataURL();
         window.flutter_inappwebview
-                    .callHandler('handlerFooWithArgs', dataURL);
+                .callHandler('handlerFooWithArgs', dataURL);
+        }, 300);
     };
     $scope.onBase64 = function(base64Image) {
         var file = dataURLtoFile(base64Image,'image.png');
         $scope.process.rawImage = file;
         triangulator(elem, $scope.process);
-         var dataURL = elem.toDataURL();
+        setTimeout(function(){  
+        var dataURL = elem.toDataURL();
         window.flutter_inappwebview
-                    .callHandler('handlerFooWithArgs', dataURL);
+                .callHandler('handlerFooWithArgs', dataURL);
+        }, 300);
     }
     $scope.onFileSelect = function($files) {
         // should remove this function

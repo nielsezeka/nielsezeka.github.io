@@ -52,6 +52,7 @@
             });
         }
         function myFunction(base64Text) {
+            console.log("my data is" + base64Text);
             angular.element(document.querySelector('[ng-controller="MainCtrl"]')).scope().onBase64(base64Text)
         }
       
