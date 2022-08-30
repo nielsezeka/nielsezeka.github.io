@@ -1,1 +1,2 @@
-Update read me 15
+- update readme
+- Update category of receipts
