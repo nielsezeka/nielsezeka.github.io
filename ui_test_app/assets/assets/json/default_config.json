@@ -1,0 +1,98 @@
+{
+	"main_page_config": {
+		"highlight_images": [
+			{
+				"image_url": "https://source.unsplash.com/featured/300x201?t=1",
+				"keyword": [
+					"a1",
+					"b",
+					"c"
+				]
+			},
+			{
+				"image_url": "https://source.unsplash.com/featured/300x201?t=2",
+				"keyword": [
+					"a",
+					"b",
+					"c"
+				]
+			},
+			{
+				"image_url": "https://source.unsplash.com/featured/300x201?t=3",
+				"keyword": [
+					"a",
+					"b",
+					"c"
+				]
+			},
+			{
+				"image_url": "https://source.unsplash.com/featured/300x201?t=4",
+				"keyword": [
+					"a",
+					"b",
+					"c"
+				]
+			},
+			{
+				"image_url": "https://source.unsplash.com/featured/300x201?t=5",
+				"keyword": [
+					"a",
+					"b",
+					"c"
+				]
+			}
+		]
+	},
+	"ai_text_to_art_config": {
+		"suggestions": [
+			"Cats and dogs",
+			"There's a lot of cats in the trees",
+			" At the zoo we have big cats from the jungle",
+			"Cute cat say hello"
+		],
+		"style": [
+			{
+				"thumbnail": "https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+				"name": "Manga",
+				"id": "manga"
+			},
+			{
+				"thumbnail": "https://images.unsplash.com/photo-1655634535242-b056d585dfd9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+				"name": "3D",
+				"id": "manga"
+			},
+			{
+				"thumbnail": "https://images.unsplash.com/photo-1579783901586-d88db74b4fe4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=748&q=80",
+				"name": "Van gogh",
+				"id": "vangogh"
+			}
+		],
+		"detail": [
+			{
+				"section": "Screen detail",
+				"name": "3D model",
+				"id": "3dmodel"
+			},
+			{
+				"section": "Screen detail",
+				"name": "Cool",
+				"id": "cool"
+			},
+			{
+				"section": "Light effect",
+				"name": "Lighting 1",
+				"id": "light1"
+			},
+			{
+				"section": "Light effect",
+				"name": "Lighting 2",
+				"id": "light2"
+			},
+			{
+				"section": "Light effect",
+				"name": "Lighting 3",
+				"id": "3light3"
+			}
+		]
+	}
+}
