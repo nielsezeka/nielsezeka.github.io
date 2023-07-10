@@ -1,4 +1,4 @@
-- update readme 5
+- update readme 6
 - update readme
 - add test renderer
 - Update category of receipts
