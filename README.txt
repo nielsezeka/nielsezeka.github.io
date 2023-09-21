@@ -1,3 +1,4 @@
+- update page test for nam map 
 - update readme 6
 - update readme
 - add test renderer
