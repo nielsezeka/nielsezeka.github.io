@@ -3,46 +3,26 @@
 <head>
   <style>
     .loading {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0;
+      width: 10em;
+      height: 10em;
       position: absolute;
       top: 50%;
       left: 50%;
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-    }
-    
-    .loader {
-      border: 16px solid #f3f3f3;
+      margin: -5em 0 0 -5em;
       border-radius: 50%;
-      border-top: 16px solid blue;
-      border-right: 16px solid green;
-      border-bottom: 16px solid red;
-      border-left: 16px solid pink;
-      width: 120px;
-      height: 120px;
-      -webkit-animation: spin 2s linear infinite;
-      animation: spin 2s linear infinite;
+      border: 0px solid #444;
+      box-shadow: -10px -10px 10px #6359f8, 0px -10px 10px 0px #9c32e2, 10px -10px 10px #f36896, 10px 0 10px #ff0b0b, 10px 10px 10px 0px#ff5500, 0 10px 10px 0px #ff9500, -10px 10px 10px 0px #ffb700;
+      animation: rot55 0.7s linear infinite;
     }
-    
-    @-webkit-keyframes spin {
-      0% {
-        -webkit-transform: rotate(0deg);
-      }
-      100% {
-        -webkit-transform: rotate(360deg);
-      }
-    }
-    
-    @keyframes spin {
-      0% {
-        transform: rotate(0deg);
-      }
-      100% {
+
+    @keyframes rot55 {
+      to {
         transform: rotate(360deg);
       }
+    }
+    .fade-out-image {
+      opacity: 0%;
+      transition: opacity 0.3s;
     }
   </style>
   <!--
@@ -78,18 +58,18 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "891598668";
+    const serviceWorkerVersion = "4285685631";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
 <body>
-  <div class="loading">
+  <div class="loading" id="loading_indicator">
     <div class="loader"></div>
   </div>
   <script>
     window.addEventListener('load', function(ev) {
-      var loading = document.querySelector('#loading');
+     
       // Download main.dart.js
       _flutter.loader.loadEntrypoint({
         serviceWorker: {
@@ -97,6 +77,9 @@
         },
         onEntrypointLoaded: function(engineInitializer) {
           engineInitializer.initializeEngine().then(function(appRunner) {
+            var loading = document.getElementById("loading_indicator");
+            loading.classList.add("fade-out-image");
+            console.log(loading);
             appRunner.runApp();
           });
         }
