@@ -1,4 +1,4 @@
-- update page test for nam map 
+- update page test for bd
 - update readme 6
 - update readme
 - add test renderer
