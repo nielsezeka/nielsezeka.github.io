@@ -1,0 +1,437 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+/* Đảm bảo nội dung căn giữa */
+
+body {
+
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+input {
+    border: none;
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+
+/* Custom styles */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0 0 0;
+}
+
+header .header__title {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+header .header__title_company {
+    font-size: 1.6rem;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+header .header__title_info {
+    font-size: 1.6rem;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    line-height: 1.4rem;
+    align-items: center;
+}
+
+.info .info__company {
+    font-style: italic;
+}
+
+.info .info__number {
+    display: flex;
+    align-items: center;
+}
+
+.info .info__number_label {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-right: 2px;
+}
+
+.info .info__input_number {
+    margin-left: 4px;
+    border: none;
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+    font-size: 1rem;
+    overflow: hidden;
+    font-weight: 550;
+}
+
+/* Họ và tên thông tin  */
+
+.input_info .title {
+    padding: 8px 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+
+
+.input_info .input_info__infomation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+
+
+.info__name_age {
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.info__name_age .input_info__input_name {
+    width: 60%;
+}
+
+.info__name_age .input_info__input_age {
+    width: 40px;
+}
+
+.input_info_job {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.input_info_job .national {
+    display: flex;
+}
+
+.info__address {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    align-items: center;
+}
+
+.info_address_phone {
+    width: 50%;
+    display: flex;
+}
+
+.info_address_title_input {
+    flex-grow: 1;
+}
+
+.info_address_title {
+    width: 50%;
+    display: flex;
+}
+
+.info_address_phone_input {
+    flex-grow: 1;
+}
+
+.name_family {
+    display: flex;
+    margin-top: 8px;
+}
+
+.name_family .name_family__input {
+    flex-grow: 1;
+}
+
+.reason {
+    margin-top: 10px;
+}
+
+.reason_input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.reason_label {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+
+}
+
+.reason_history {
+    margin-top: 14px;
+    display: flex;
+}
+
+.reason_history input {
+    flex-grow: 1;
+}
+
+.doctor {
+    margin-top: 8px;
+}
+
+.doctor__info {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.doctor .doctor__info_label {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-right: 20px;
+    white-space: nowrap;
+}
+
+.doctor_1 {
+    margin-right: 20px;
+    white-space: nowrap;
+}
+
+.doctor_input1 {
+    width: 40px;
+
+}
+
+.doctor_2 {
+    margin-right: 20px;
+    white-space: nowrap;
+}
+
+.doctor_input2 {
+    width: 10px;
+
+}
+
+.doctor_check {
+    display: flex;
+    margin-bottom: 4px;
+
+}
+
+.doctor_check input {
+    flex-grow: 1;
+    margin-left: 2px;
+}
+
+.doctor_check1 {
+    display: flex;
+    margin-top: 6px;
+}
+
+
+
+.doctor_check1 .doctor_check1_label1 {
+    margin-right: 30px;
+
+}
+
+.doctor_check1_label2 {
+    margin-right: 30px;
+}
+
+.doctor_check1_label3 {
+    margin-right: 30px;
+}
+
+.doctor_check_input1 {
+    width: 80px;
+    margin-right: 10px;
+}
+
+.method_label {
+    margin-top: 8px;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.method {
+    display: flex;
+    flex-direction: column;
+}
+
+.method_input {
+    flex-grow: 1;
+    font-size: 12px;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: end;
+
+}
+
+.date_total {
+    display: flex;
+}
+
+.date_day_input {
+    width: 20px;
+}
+
+.date_day_input_year {
+    width: 40px;
+}
+
+.sign {
+    height: 100px;
+}
+
+.write_sign {
+    margin-right: 28px;
+    font-size: 1rem;
+    font-weight: 700;
+}
