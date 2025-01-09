@@ -1,4 +1,4 @@
-- update page test for bd
+- update page 
 - update readme 6
 - update readme
 - add test renderer
