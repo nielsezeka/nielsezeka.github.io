@@ -1,0 +1,66 @@
+{
+    "row_count": 3,
+    "col_count": 4,
+    "nodes": [
+        {
+            "row": 2,
+            "col": 3,
+            "unique": "0"
+        },
+        {
+            "row": 2,
+            "col": 2,
+            "unique": "0"
+        },
+        {
+            "row": 2,
+            "col": 0,
+            "unique": "0"
+        },
+        {
+            "row": 0,
+            "col": 3,
+            "unique": "0"
+        },
+        {
+            "row": 1,
+            "col": 0,
+            "unique": "0"
+        },
+        {
+            "row": 1,
+            "col": 3,
+            "unique": "0"
+        },
+        {
+            "row": 2,
+            "col": 1,
+            "unique": "1"
+        },
+        {
+            "row": 1,
+            "col": 1,
+            "unique": "1"
+        },
+        {
+            "row": 0,
+            "col": 2,
+            "unique": "2"
+        },
+        {
+            "row": 0,
+            "col": 0,
+            "unique": "2"
+        },
+        {
+            "row": 1,
+            "col": 2,
+            "unique": "2"
+        },
+        {
+            "row": 0,
+            "col": 1,
+            "unique": "2"
+        }
+    ]
+}
