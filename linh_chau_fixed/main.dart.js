@@ -112471,7 +112471,7 @@ X3(a,b){var s,r,q,p,o,n=null
 A.W(a)
 s=A.hA(A.a(a.split("."),t.s))
 if(s==null)s=""
-r=s==="jpeg"||s==="jpg"||s==="png"
+r=s.toLowerCase()==="jpeg"||s.toLowerCase()==="jpg"||s.toLowerCase()==="png"
 q=A.dO(5*$.a3().gbz())
 p=$.a3().gbD()
 o=t.o.a(A.M(b).c.h(0,A.ak(t.e))).f
